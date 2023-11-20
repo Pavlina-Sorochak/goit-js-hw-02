@@ -3,7 +3,7 @@ if (message.length <= maxLength) {
     return message;
 } 
 else {
-    const text = message.slice(0, maxLength - 3) + '...';
+    const text = message.slice(0, maxLength ) + '...';
 return text;
 }
 }
